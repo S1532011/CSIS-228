@@ -3,8 +3,8 @@
     Chapter case
 
     Tinley Xeriscapes
-    Author: 
-    Date:   
+    Author: Malachi Maenle
+    Date:   1/23/2023
 
     Filename: js01b.js
 */

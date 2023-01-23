@@ -2,7 +2,7 @@
     Chapter 1
     Hands-On Project 1-4
 
-    Author: 
+    Author: Malachi Maenle
     Date:   
 
     Filename: project01-04.js
