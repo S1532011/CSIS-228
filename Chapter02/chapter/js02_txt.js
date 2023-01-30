@@ -4,8 +4,8 @@
 
       Fan Trick Fine Art Photography
       Variables and functions
-      Author: 
-      Date:   
+      Author: Malachi Maenle
+      Date:   1/20/2023
 
       Filename: js02.js
  */
