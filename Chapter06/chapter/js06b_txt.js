@@ -4,8 +4,8 @@
       Chapter case
 
       Order Form Code
-      Author: 
-      Date:   
+      Author: Malachi Maenle
+      Date:   2/26/2023
 
       Filename: js06b.js
  */
