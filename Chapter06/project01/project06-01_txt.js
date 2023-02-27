@@ -4,8 +4,8 @@
       Project 06-01
 
       Project to validate a form used for setting up a new account
-      Author: 
-      Date:   
+      Author: Malachi Maenle
+      Date:   2/26/2023
 
       Filename: project06-01.js
 */
