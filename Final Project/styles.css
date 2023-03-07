@@ -1,0 +1,46 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-color: #ffffff;
+        --layer1: #f4f4f4;
+        --layer2: #ffffff;
+        --layer3: #ffffff;
+        --layer4: #ffffff;
+        --accent1: #ff7f50;
+        --accent2: #ff7f50;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #0A0A0A;
+        --layer1: #121212;
+        --layer2: #161618;
+        --layer3: #181818;
+        --layer4: #212121;
+        --accent1: #ff5e37;
+        --accent2: #ff7f50;
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+}
+div {
+    display: flex;
+    width: 80%;
+    padding: 100px;
+
+}
+
+.layer1 {
+    background-color: var(--layer1);
+}
+.layer2 {
+    background-color: var(--layer2);
+}
+.layer3 {
+    background-color: var(--layer3);
+}
+.layer4 {
+    background-color: var(--layer4);
+    height: 200px;
+}
