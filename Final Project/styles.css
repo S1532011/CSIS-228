@@ -1,6 +1,7 @@
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #ffffff;
+        --color: #111111;
+        --layer0: #ffffff;
         --layer1: #f4f4f4;
         --layer2: #ffffff;
         --layer3: #ffffff;
@@ -11,7 +12,8 @@
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #0A0A0A;
+        --color: #eeeeee;
+        --layer0: #0A0A0A;
         --layer1: #121212;
         --layer2: #161618;
         --layer3: #181818;
@@ -22,15 +24,13 @@
 }
 
 body {
-    background-color: var(--bg-color);
-}
-div {
-    display: flex;
-    width: 80%;
-    padding: 100px;
-
+    background-color: var(--layer0);
+    color: var(--color);
 }
 
+.layer0 {
+    background-color: var(--layer0);
+}
 .layer1 {
     background-color: var(--layer1);
 }
@@ -42,5 +42,15 @@ div {
 }
 .layer4 {
     background-color: var(--layer4);
-    height: 200px;
+}
+
+#recipe-grid-listing
+#recipe-grid {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+}
+.recipe {
+    width: 20%;
 }
