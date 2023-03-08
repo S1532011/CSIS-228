@@ -1,16 +1,52 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --color: #111111;
-        --layer0: #ffffff;
-        --layer1: #f4f4f4;
-        --layer2: #ffffff;
-        --layer3: #ffffff;
+        --layer0: #E8E5DA;
+        --layer1: #816C61;
+        --layer2: #E7DFC6;
+        --layer3: #F1F7ED;
         --layer4: #ffffff;
-        --accent1: #ff7f50;
-        --accent2: #ff7f50;
+        --border1: #0008;
+        --shadow1: #000C;
     }
 }
 @media (prefers-color-scheme: dark) {
+    :root {
+        --color: #eeeeee;
+        --layer0: #0000;
+        --layer0-gradient: linear-gradient(0deg, #020215, #092025);
+        --layer1: #0000;
+        --layer1-gradient: linear-gradient(0deg, #122932A0, #122932);
+        --layer2: #0000;
+        --layer2-gradient: linear-gradient(0deg, #1B2A41D0, #152A41);
+        --layer3: #0000;
+        --layer3-gradient: linear-gradient(0deg, #2D4A5F40, #2D4A5F);
+        --layer4: #0000;
+        --layer4-gradient: linear-gradient(0deg, #01010140, #010101);
+        --border1: #FFF1;
+        --shadow1: #000C;
+    }
+}
+/*
+#0C1821
+#161618
+#333333
+#858786
+#262322
+#0F2423
+        --accent1: #FF5e37;
+        --accent2: #FF7F50;
+
+--color: #111111;
+        --layer0: #E7DFC6;
+        --layer1: #131B23;648DE5
+        --layer2: #816C61;
+        --layer3: #E9F1F7;
+        --layer4: #ffffff;
+        --accent1: #ff7f50;
+        --accent2: #ff7f50;
+
+@media (prefers-color-scheme: light) {
     :root {
         --color: #eeeeee;
         --layer0: #0A0A0A;
@@ -18,39 +54,70 @@
         --layer2: #161618;
         --layer3: #181818;
         --layer4: #212121;
-        --accent1: #ff5e37;
-        --accent2: #ff7f50;
+        --accent1: #FF5e37;
+        --accent2: #FF7F50;
     }
 }
+*/
 
 body {
     background-color: var(--layer0);
+    background-image: var(--layer0-gradient);
     color: var(--color);
 }
 
 .layer0 {
     background-color: var(--layer0);
+    background-image: var(--layer0-gradient);
 }
 .layer1 {
     background-color: var(--layer1);
+    background-image: var(--layer1-gradient);
 }
 .layer2 {
     background-color: var(--layer2);
+    background-image: var(--layer2-gradient);
 }
 .layer3 {
     background-color: var(--layer3);
+    background-image: var(--layer3-gradient);
 }
 .layer4 {
     background-color: var(--layer4);
+    background-image: var(--layer4-gradient);
 }
 
-#recipe-grid-listing
-#recipe-grid {
-    width: 100%;
+#recipe-grid-listing {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
     margin: auto;
+    height: auto;
+    width: 70%;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: var(--border1);
+}
+#recipe-grid {
     display: grid;
-    justify-content: space-between;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: var(--border1);
+    box-shadow: 1px 1px var(--shadow1);
 }
 .recipe {
-    width: 20%;
+    padding: 10px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: var(--border1);
+    box-shadow: 1px 1px var(--shadow1);
 }
