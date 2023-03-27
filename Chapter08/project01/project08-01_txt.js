@@ -4,8 +4,8 @@
       Project 08-01
 
       Project to create a timer object
-      Author: 
-      Date:   
+      Author: Malachi Maenle
+      Date:   3/27/2023
 
       Filename: project08-01.js
 */
