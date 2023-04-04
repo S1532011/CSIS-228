@@ -4,8 +4,8 @@
       Chapter case
       
       Eating Well in Season 
-      Author: 
-      Date:   
+      Author: Malachi Maenle
+      Date:   4/3/2023
       
       Filename: js09b.js
  */
