@@ -4,8 +4,8 @@
     Chapter case
 
     Oak Top House
-    Author: 
-    Date:   
+    Author: Malachi Maenle
+    Date:   4/10/2023
 
     Filename: js10a.js
 */
