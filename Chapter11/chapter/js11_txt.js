@@ -4,8 +4,8 @@
    Chapter 11
    Chapter Case
 
-   Author:   
-   Date:     
+   Author:   Malachi Maenle
+   Date:     4/17/2023
 
    Filename: js11.js
 
