@@ -38,7 +38,7 @@
         --layer4-gradient: linear-gradient(0deg, #01010140, #010101);
         --border1: #FFF1;
         --shadow1: #000C;
-        --header-img-opacity: 0.7;
+        --header-img-opacity: 0.95;
     }
 }
 
@@ -74,7 +74,7 @@ header .info {
 }
 header .credit {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     right: 10px;
     font-size: larger;
     text-shadow: 1px 1px #AAAA;
