@@ -4,8 +4,8 @@
       Project 11-03
 
       Project to retrieve order history from a web server
-      Author: 
-      Date:   
+      Author: Malachi Maenle
+      Date:   4/17/2023
 
       Filename: project11-03.js
 */
