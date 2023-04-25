@@ -5,8 +5,8 @@
     Chapter case
 
     Bonsai Expressions FAQ 
-    Author: 
-    Date:   
+    Author: Malachi Maenle
+    Date:   4/27/2023
 
     Filename: js12.js
 */
