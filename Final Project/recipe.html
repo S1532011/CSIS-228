@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="input_styles.css" />
+    <script src="recipe_listing.js" defer></script>
+</head>
+
+<body onload="displayRecipe()">
+    <h1>Create a recipe:</h1>
+    <form>
+        <h4>Author: <span id="author"></span></h4>
+        <h4>Publisher: <span id="publisher"></span></h4>
+
+        <hr/>
+
+        <h1>Name: <span id="name"></span></h1>
+        <h5>Description: <span id="description"></span></h5>
+        <hr/>
+
+        <p>Time: <span id="time"></span></p>
+        <p>Servings: <span id="servings"></span></p>
+        <p>Difficulty: <span id="difficulty"></span></p>
+        <br/>
+
+        <h3>Ingredients: </h3>
+        <p id="ingredients"></p>
+        <br/>
+
+        <h3>Steps: </h3>
+        <p id="steps"></p>
+        <br/>
+    </form>
+</body>
+
+</html>

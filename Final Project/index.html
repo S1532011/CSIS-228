@@ -2,12 +2,15 @@
 <html lang="en-us">
     <head>
         <link rel="stylesheet" href="styles.css" />
-        <script src="script.js" defer></script>
+        <script src="recipe_listing.js" defer></script>
+        <!-- <script src="carousel.js" defer></script> -->
     </head>
     <body>
         <!-- Navbar -->
         <nav class="navbar layer3">
             <a href="index.html">Home</a>
+            <button class="layer2 layer3-border text btn" onclick="setData([])">&#10133; reset Recipes</button>
+            <button id="create-recipe" class="right layer2 layer3-border text btn" onclick="recipeInput()">&#10133; Create Recipe</button>
         </nav>
 
         <hr class="nav-hr"/>
@@ -34,30 +37,16 @@
         <br/>
 
         <!-- Display recently viewed recipes -->
-        <div class="recipe-carousel layer1 layer1-border">
+        <!-- <div class="recipe-carousel layer1 layer1-border">
+            <button class="btn left-btn" onclick="moveLeft()">&#10094;</button>
+            <button class="btn right-btn" onclick="moveRight()">&#10095;</button>
             <div id="recently-viewed-recipes-listing" class="carousel-listing">
                 <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
                 <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
                 <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
                 <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
             </div>
-        </div>
-
-        <br/>
-
-        <!-- Display popular recipes -->
-        <div class="recipe-carousel layer1 layer1-border">
-            <div id="popular-recipes-listing" class="carousel-listing">
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-            </div>
-        </div>
+        </div> -->
 
         <br/>
 
@@ -70,12 +59,6 @@
 
             <!-- Show Recipes in a grid -->
             <div id="all-recipes-listing" class="recipe-grid-listing">
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
-                <div class="layer3 layer3-border recipe"><h1>recipe</h1></div>
             </div>
 
             <!-- Page Num and previous/next page buttons -->

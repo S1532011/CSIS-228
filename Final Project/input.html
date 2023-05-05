@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="input_styles.css" />
+    <script src="recipe_listing.js" defer></script>
+</head>
+
+<body>
+    <h1>Create a recipe:</h1>
+    <form>
+        <label for="author">*Author:</label>
+        <input class="btn layer2 layer3-border text" type="text" id="author" name="author" required>
+        <br><br>
+
+        <label for="publisher">*Publisher:</label>
+        <input class="btn layer2 layer3-border text" type="text" id="publisher" name="publisher" required>
+        <br><br>
+
+        <label for="name">*Name:</label>
+        <input class="btn layer2 layer3-border text" type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="description">*Description:</label>
+        <textarea class="btn layer2 layer3-border text" id="description" name="description" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <label for="ingredients">*Ingredients:</label>
+        <textarea class="btn layer2 layer3-border text" id="ingredients" name="ingredients" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <label for="time">*Cook Time:</label>
+        <input class="btn layer2 layer3-border text" type="text" id="time" name="time" required>
+        <br><br>
+
+        <label for="servings">*Servings:</label>
+        <input class="btn layer2 layer3-border text" type="text" id="servings" name="servings" required>
+        <br><br>
+
+        <label for="difficulty">Difficulty:</label>
+        <select class="btn layer2 layer3-border text" id="difficulty" name="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <br><br>
+
+        <label for="steps">*Steps:</label>
+        <textarea class="btn layer2 layer3-border text" id="steps" name="steps" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <button class="btn layer2 layer3-border text" onclick="createRecipe()">Submit</button>
+        <br><br>
+    </form>
+</body>
+
+</html>

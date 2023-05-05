@@ -1,3 +1,8 @@
+/* Auto-detect device color preference removed due to bad-looking colors in dark mode */
+/* Original plan was to make it look like the depths of the ocean, got a really good background but the other layer colors just werent right */
+/* This one file took the longest due to me being nitpicky about colors and looking really nice... I eventually gave up on that when I actually decided to add functionality */ 
+
+/*
 @media (prefers-color-scheme: dark) {
     :root {
         --color: #111111;
@@ -10,7 +15,7 @@
         --shadow1: #000C;
     }
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root {
         --color: #111111;
         --layer0: #E8E5DA;
@@ -23,6 +28,7 @@
         --header-img-opacity: 1;
     }
 }
+
 @media (prefers-color-scheme: dark) {
     :root {
         --color: #eeeeee;
@@ -40,6 +46,18 @@
         --shadow1: #000C;
         --header-img-opacity: 0.95;
     }
+} */
+
+:root {
+    --color: #111111;
+    --layer0: #E8E5DA;
+    --layer1: #816C61;
+    --layer2: #F1F7ED;
+    --layer3: #E7DFC6;
+    --layer4: #ffffff;
+    --border1: #0000;
+    --shadow1: #0003;
+    --header-img-opacity: 1;
 }
 
 /* body styling */
@@ -99,6 +117,26 @@ hr {
 .nav-hr {
     width: 100%;
     margin: 0px;
+}
+.right {
+    position: absolute;
+    right: 10px;
+}
+.text {
+    color: --color;
+}
+.btn {
+    transition: background-color 0.3s ease;
+}
+  
+.btn:hover {
+    filter: brightness(150%);
+}
+.close {
+    color: white;
+    background-color: red;
+    border-color: darkred;
+    border-radius: 6px;
 }
 
 
@@ -174,12 +212,13 @@ hr {
     width: auto;
     min-width: 25%;
     position: relative;
+    transform-origin: center center;
 }
 
-.recipe:hover {
+/* .recipe:hover {
     transform: translateX(calc(100% + 10px));
     transition-duration: 1s;
-}
+} */
 
 
 /* recipe carousel */
@@ -198,4 +237,14 @@ hr {
     padding: 10px;
     height: auto;
     gap: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.left-btn, .right-btn {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: lightseagreen;
 }

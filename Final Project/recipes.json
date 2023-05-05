@@ -1,0 +1,103 @@
+[
+    {
+        "author": "Green Chef Corporation",
+        "Publisher": "anonymous",
+        "name": "Beef Cavatappi Skillet",
+        "description": "Cavatappi's twirly shape takes its name from the Italian word for “corkscrew.” Not only is it fun to eat, it's also practical: The pasta's many nooks and crannies cling onto creamy sauce and catch all the mix-ins (here, Italian-spiced beef, sweet peas, roasted red peppers, and lots of cheese). No more hunting through strands of spaghetti, then twirling with a fork and spoon—with cavatappi, you can easily curate bite after perfect bite.",
+        "ingredients": [
+            {
+                "ingredient": "Ground Beef",
+                "measurement": "10 oz"
+            },
+            {
+                "ingredient": "Italian herb & red pepper blend",
+                "measurement": "3/4 tsp"
+            },
+            {
+                "ingredient": "Cavatappi pasta",
+                "measurement": "6 oz"
+            },
+            {
+                "ingredient": "Tomato cream sauce",
+                "measurement": "7 3/4 oz"
+            },
+            {
+                "ingredient": "Cream cheese",
+                "measurement": "1 oz"
+            },
+            {
+                "ingredient": "Peas",
+                "measurement": "2 1/2 oz"
+            },
+            {
+                "ingredient": "Roasted red peppers",
+                "measurement": "2 1/4 oz"
+            },
+            {
+                "ingredient": "Mozzarella Cheese",
+                "measurement": "2 oz"
+            },
+            {
+                "ingredient": "Parmesan cheese",
+                "measurement": "1 oz"
+            },
+            {
+                "ingredient": "Crushed red pepper flakes",
+                "measurement": "1/2 tsp"
+            }
+        ],
+        "supplies_needed": [
+            "large oven-safe saute pan with lid",
+            "measuring cup and spoons",
+            "oven mitt",
+            "cooking oil",
+            "salt & pepper"
+        ],
+        "allergens": [
+            "WHEAT",
+            "MILK",
+            "TREE NUTS (coconut)"
+        ],
+        "cook_time": 30,
+        "servings": 2,
+        "calories_per_serving": 1080,
+        "difficulty": "",
+        "date": "4/11/2023",
+        "steps": [
+            {
+                "title": "Season & Cook Beef",
+                "description": [
+                    "Set oven to low broil.",
+                    "Heat 1 1/2 tablespoons cooking oil in a large oven-safe saute pan over medium-high heat. Add ground beef to hot pan. Season with Italian herb and red pepper blend, 1/4 teaspoon salt, and a pinch of pepper. Cook 4-5 minutes, or until fully cooked, breaking up beef into pieces."
+                ]
+            },
+            {
+                "title": "Add Pasta",
+                "description": [
+                    "Add cavatappi pasta, about half the tomato cream sauce, and about 2 cups water to pan with beef. Season with ¼ teaspoon salt and a pinch of pepper. Stir to combine.",
+                    "Bring to a boil, then reduce heat to medium low and cover pan with lid. Simmer 9-12 minutes, or until pasta is al dente and liquid is reduced and saucy, stirring occasionally."
+                ]
+            },
+            {
+                "title": "Make Sauce",
+                "description": [
+                    "Add cream cheese, peas, roasted red peppers, remaining tomato cream sauce, and about 2 tablespoons water to pan with pasta. Stir to combine. Cook 2-3 minutes, or until sauce is warmed through.",
+                    "Season with 1/4 teaspoon salt and a pinch of pepper. Remove from heat."
+                ]
+            },
+            {
+                "title": "Finish Pasta",
+                "description": [
+                    "Sprinkle mozzarella cheese and Parmesan cheese over pasta.",
+                    "Transfer pan to oven. Broil 2-3 minutes, or until cheese melts."
+                ]
+            },
+            {
+                "title": "Plate Your Dish",
+                "description": [
+                    "Divide beef cavatappi between bowls. Garnish with crushed red pepper flakes to taste (or omit). Enjoy!"
+                ]
+            }
+        ]
+    }
+]
